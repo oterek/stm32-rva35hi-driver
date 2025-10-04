@@ -1,0 +1,32 @@
+# Build artifacts
+build/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# IDE specific files
+.settings/
+.cproject
+Debug/
+Release/
+
+# Temporary files
+*.swp
+*~
+.DS_Store
+
+# Dependencies that should be obtained from STM32CubeH7
+# These are large files that users should download themselves
+Drivers/STM32H7xx_HAL_Driver/Src/*.c
+!Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal.c
+!Drivers/STM32H7xx_HAL_Driver/Src/.gitkeep
+Drivers/STM32H7xx_HAL_Driver/Inc/*.h
+!Drivers/STM32H7xx_HAL_Driver/Inc/.gitkeep
+Drivers/CMSIS/Device/ST/STM32H7xx/Include/*.h
+!Drivers/CMSIS/Device/ST/STM32H7xx/Include/.gitkeep
+Drivers/CMSIS/Include/*.h
+!Drivers/CMSIS/Include/.gitkeep

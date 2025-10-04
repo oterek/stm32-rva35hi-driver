@@ -1,0 +1,2 @@
+# Place CMSIS core header files here
+# Required files: core_cm7.h, cmsis_version.h, cmsis_compiler.h, cmsis_gcc.h, mpu_armv7.h

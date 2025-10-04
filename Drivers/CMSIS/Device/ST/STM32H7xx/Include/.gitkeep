@@ -1,0 +1,2 @@
+# Place STM32H7 device header files here
+# Required files: stm32h7xx.h, stm32h755xx.h, system_stm32h7xx.h
