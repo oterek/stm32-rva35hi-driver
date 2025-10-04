@@ -46,16 +46,21 @@ You need to have the STM32 HAL libraries installed. This project requires:
 - ARM GCC toolchain (`arm-none-eabi-gcc`)
 - STM32CubeH7 HAL library (v1.10.0 or later)
 
-### Build Instructions
-1. Ensure you have the STM32CubeH7 package installed
-2. Copy the required HAL and CMSIS files to the Drivers directory
-3. Run `make` to build the project
+### Quick Start
+1. Install dependencies (see [BUILD.md](BUILD.md) for detailed instructions)
+2. Set up HAL library files (see [HAL_SETUP.md](HAL_SETUP.md))
+3. Run the setup check:
+   ```bash
+   ./check_hal_setup.sh
+   ```
+4. Build the project:
+   ```bash
+   make
+   ```
 
-```bash
-make clean
-make
-```
+For complete build instructions, flashing, and troubleshooting, see **[BUILD.md](BUILD.md)**.
 
+### Build Output
 This will generate:
 - `build/stm32h755zi-display.elf` - ELF executable
 - `build/stm32h755zi-display.hex` - HEX file for flashing
@@ -63,6 +68,8 @@ This will generate:
 
 ### Flashing
 Use STM32CubeProgrammer or OpenOCD to flash the generated `.hex` or `.bin` file to the board.
+
+See [BUILD.md](BUILD.md) for detailed flashing instructions.
 
 ## Project Structure
 ```
