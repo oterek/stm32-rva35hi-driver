@@ -1,6 +1,8 @@
 # stm32-rva35hi-driver
 Firmware for RVA35HI-NUC144A display on STM32H755ZI Nucleo-144
 
+> 📋 **Quick Links**: [Build Instructions](BUILD.md) | [HAL Setup](HAL_SETUP.md) | [Project Summary](PROJECT_SUMMARY.md) | [Contributing](CONTRIBUTING.md)
+
 ## Overview
 This project provides a complete driver implementation for the RVA35HI-NUC144A display (ILI9488 controller) on the STM32H755ZI Nucleo-144 development board.
 
